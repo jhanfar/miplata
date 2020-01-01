@@ -10,7 +10,7 @@ export class BasedatosService {
   constructor(public platform: Platform,private sqlite: SQLite) { 
 
     this.platform.ready().then(() => {      
-      console.log("antes de ingresar al metodo para crear BD");           
+      console.log("antes de ingresar al metodo para crear BD    ");           
       this.createDatabase2();  
     });
 
